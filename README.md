@@ -1,12 +1,13 @@
-
-# ESP32 Bluetooth LCD Control
-Embedded system project that enables Bluetooth-based control of an I2C LCD display using an ESP32 microcontroller.
-
 ![Language](https://img.shields.io/github/languages/top/Revfem/esp32-bluetooth-lcd-control)
 ![Stars](https://img.shields.io/github/stars/Revfem/esp32-bluetooth-lcd-control)
 ![Repo Size](https://img.shields.io/github/repo-size/Revfem/esp32-bluetooth-lcd-control)
 ![ESP32](https://img.shields.io/badge/ESP32-Embedded-blue)
 ![Arduino](https://img.shields.io/badge/Arduino-Framework-green)
+
+# ESP32 Bluetooth LCD Control
+Embedded system project that enables Bluetooth-based control of an I2C LCD display using an ESP32 microcontroller.
+
+
 
 
 # Author:
