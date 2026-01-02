@@ -1,0 +1,19 @@
+# Arduino / ESP32 build files
+*.bin
+*.elf
+*.hex
+
+# Arduino IDE
+*.ino~
+*.log
+
+# VS Code / PlatformIO
+.vscode/
+.pio/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Libraries (if added locally)
+libraries/
