@@ -39,11 +39,13 @@ This project implements a Bluetooth communication interface between a mobile dev
 ## Supported Commands
 Commands are sent via Bluetooth as JSON objects.
   - Get LCD Info
+  ```json
     {
       "action": "getLCDs"
     }
-    
+  ```
   - Set Text
+  ```json
     {
       "action": "setIcons",
       "id": 3,
@@ -51,14 +53,15 @@ Commands are sent via Bluetooth as JSON objects.
         { "data": [0,10,21,17,17,14,0,0] }
       ]
     }
-    
+  ```
   - Scroll Control
+  ```json
     {
       "action": "scroll",
       "id": 3,
       "direction": "Left"
     }
-
+  ```
 ## Usage
 1. Open `src/main.cpp` in Arduino IDE
 2. Install required libraries: ArduinoJson, Ticker, BluetoothSerial
