@@ -1,7 +1,8 @@
 # ESP32 Bluetooth LCD Control
-Author : Eva-Maria Florea
 Embedded system project that enables Bluetooth-based control of an I2C LCD display using an ESP32 microcontroller.
 
+# Author:
+Eva-Maria Florea
 ## Overview
 This project implements a Bluetooth communication interface between a mobile device and an ESP32, allowing remote control of a 16x2 I2C LCD display. Commands are sent in JSON format and processed by the ESP32 to update text, icons, and scrolling behavior on the LCD.
 
